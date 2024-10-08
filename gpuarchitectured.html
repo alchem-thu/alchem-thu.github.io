@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ALCHEM: Research</title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:300,500,400' rel='stylesheet' type='text/css'>
+  <link href="static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="static/css/style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <script src="static/js/jquery.min.js"></script>
+  <script src="static/js/bootstrap.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46895817-1', 'stanford.edu');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+  <!-- header -->
+  <a href="index.html">
+  <header class="container-fluid" id="header">
+    <div class="container" id="headerframe">
+      <div class="container" id="headerdiv"></div>
+      
+    </div>
+  </header>
+  </a>
+
+
+    
+  <ul class="nav justify-content-center nav-tabs" style="background-color: rgb(111, 36, 174)">
+    <li class="nav-item">
+      <a class="nav-link" aria-current="page" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="people.html">People</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="publications.html">Publications</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="research.html">Research</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="teaching.html">Teaching</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="location.html">Location</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="cathof.html">CAT HoF</a>
+    </li>
+  </ul>
+
+  <div class="container" style="margin:auto;">
+ <h3 style="margin-left:30px;">GPU Architecture</h3>
+<div class='project' style="border-bottom: 1px solid #a9a3a3; padding-bottom: 3px; margin-left:30px;">
+  <p style="margin: 20px 0px 10px;">Graphics processing units (GPUs) have been widely used in high throughput general purpose computing because of their high power efficiency. As the GPU programming languages improve, such as OpenCL and NVIDIA CUDA, GPUs are becoming a better computing platform choice for general purpose applications with regular parallelism.
+</p>
+<p style="margin: 20px 0px 10px;">
+Our research group made research contributions that allow GPU architectures to be more friendly to applications. G-TSC <a href="http://alchem.usc.edu/portal/static/download/gtsc.pdf">[HPCA'18]</a> is a novel cache coherence protocol for GPUs that is based on timestamp ordering. Hardware cache coherence is critical when GPUs are used to accelerate applications with irregular parallelism (e.g., graph processing). G-TSC conducts its coherence transactions in logical time. G-TSC does not require a globally synchronized clock and avoids execution stalls by the capability to logically schedule operations in future with proper timestamps. <a href="http://alchem.usc.edu/portal/static/download/share_aware_gpu.pdf">[IPDPS'17]</a> proposes a sharing-aware CTA scheduler that attempts to assign CTAs with data sharing to the same SM to reduce redundant storage of data in private L1 caches across SMs. We further enhance the scheduler with a sharing-aware cache allocation and replacement policy.
+</p>
+    <ul>
+
+
+
+
+
+
+
+     <li>
+     <a href="http://alchem.usc.edu/portal/static/download/tpds2020.pdf">Efficient Performance Estimation and Work-Group Size Pruning for OpenCL Kernels on GPUs</a> <br>
+     Xiebing Wang, Xuehai Qian, Alois Knoll, Kai Huang<br>
+     <i><b>TPDS'20</b> IEEE Transactions on Parallel and Distributed Systems</i>, 2020<br>
+     <br>
+     </li>
+          <li>
+  <a href="http://alchem.usc.edu/portal/static/download/hpca19gpu.pdf">
+  A Hybrid Framework for Fast and Accurate
+GPU Performance Estimation through Source-Level Analysis and Trace-Based Simulation</a><br>
+     Xiebing Wang, Kai Huang, Alois Knoll, Xuehai Qian<br>
+  <i><b>HPCA'19</b> The 25th IEEE International Symposium on High-Performance Computer Architecture</i>, 2019
+                <br>
+        <br>
+  </li>
+
+      <li>
+  <a href="http://alchem.usc.edu/portal/static/download/gtsc.pdf">
+  G-TSC: Timestamp Based Coherence for GPUs</a><br>
+    Abdulaziz Tabbakh, Xuehai Qian, Murali Annavaram<br>
+  <i><b>HPCA'18</b> The 24th IEEE International Symposium on High-Performance Computer Architecture</i>, 2018
+                <br>
+        <br>
+  </li>
+  <li>
+   <a href="http://alchem.usc.edu/portal/static/download/share_aware_gpu.pdf">
+  Power Efficient Sharing-Aware GPU Data Management</a> <br>
+    Abdulaziz Tabbakh, Murali Annavaram and Xuehai Qian<br>
+<i> <b>IPDPS '17</b> The 31st IEEE International Parallel & Distributed Processing Symposium</i>, 2017
+                <br>
+    <br>
+  </li>
+    </ul>
+
+  </div>
+
+
+</div>
+
+
+<footer class="container-fluid">
+  <div class="container" id="footerframe">
+    <div class="container" id="footerdiv2">
+      <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=Lq5iuLFUs2A46H9upjiw_VfI0w70WpehG80pF_H4YKA&cl=ffffff&w=a"></script>
+    </div>
+    
+    <div class="container" id="footerdiv3">
+      <br>
+      <div>
+      Copyright@ALCHEM 2016. All Rights Reserved.
+      </div>
+      <div>
+      Department of Computer Science and Technology, 
+      </div>
+      <div>
+        Tsinghua University, Beijing, China 
+      </div>
+    </div>
+    <div class="container" id="footerdiv">
+    </div>
+  </div>
+</footer>
+
+  <!-- <footer class="container-fluid">
+    <div class="container" id="footerframe">
+      <div class="container" id="footerdiv2">
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=120&d=bmO6Hh9xiDfcxXrEp-joryIEnnlSrpf-gQ2UiK-5jaY&co=ffc425&ct=ffc425&cmo=ffffff&cmn=ffffff&t=tt'></script>
+      </div>
+  <div class="container" id="footerdiv2_patch">
+  </div>
+      <div class="container" id="footerdiv3">
+      <br>
+      <span>Copyright@ALCHEM 2016. All Right Reserved.
+      3650 McClintock Ave, Los Angeles, CA 90089.
+      USC Viterbi School of Engineering.</span>
+      </div>
+      <div class="container" id="footerdiv">
+      </div>
+    </div>
+  </footer> -->
+</body>
+</html>
