@@ -805,12 +805,14 @@ width: 40%;
 header {
    	height: 105px;
    }
-   #headerdiv {
-   	height: 105px;
-	width: 290px;
-	position: absolute;
-  	background: transparent url(../img/header-logo.svg) center center no-repeat;
-   }
+  #headerdiv {
+    height: 105px;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    position: absolute;
+    background: transparent url(../img/header-logo.svg) center center no-repeat;
+  }
 
 #navdiv {
       position: relative;
@@ -834,11 +836,13 @@ header {
    	height: 105px;
    }
    #headerdiv {
-   	height: 105px;
-	width: 400px;
-	position: absolute;
-  	background: transparent url(../img/header-logo.svg) center center no-repeat;
-   }
+    height: 105px;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    position: absolute;
+    background: transparent url(../img/header-logo.svg) center center no-repeat;
+  }
 #navdiv {
       position: relative;
       top:	0px;
@@ -861,10 +865,12 @@ header {
          height: 120px;
     }
     #headerdiv {
-         height: 120px;
-	 width: 480px;
-	 position: absolute;
-  	 background: transparent url(../img/header-logo.svg) center center no-repeat;
+      height: 120px;
+      width: 90%;
+      left: 5%;
+      right: 5%;
+	    position: absolute;
+  	  background: transparent url(../img/header-logo.svg) center center no-repeat;
     }
     #location_map {
 	width: 450px;	
@@ -885,10 +891,12 @@ header {
          height: 150px;
     }
     #headerdiv {
-         height: 150px; 
-         width: 768px; 
-	 position: absolute;
-  	 background: transparent url(../img/header-logo.svg) center center no-repeat;
+      height: 150px;
+      width: 90%;
+      left: 5%;
+      right: 5%;
+	    position: absolute;
+  	  background: transparent url(../img/header-logo.svg) center center no-repeat;
     }
     #navigation {
      	top:    170px;
@@ -931,10 +939,12 @@ header {
         height: 150px;
     }
     #headerdiv {
-        height: 150px;
-        width: 992px;
-	position: absolute;
-  	background: transparent url(../img/header-logo.svg) center center no-repeat;
+      height: 150px;
+      width: 90%;
+      left: 5%;
+      right: 5%;  
+	    position: absolute;
+  	  background: transparent url(../img/header-logo.svg) center center no-repeat;
     }
     #navigation {
      	top:    170px;
@@ -960,10 +970,12 @@ header {
         height: 150px;
     }
     #headerdiv {
-        height: 150px;
-	width:	1200px;
-	position: absolute;
-    background: transparent url(../img/header-logo.svg) center center no-repeat;
+      height: 150px;
+      width: 90%;
+      left: 5%;
+      right: 5%;
+      position: absolute;
+      background: transparent url(../img/header-logo.svg) center center no-repeat;
     }
     #navigation {
      	top:    170px;
