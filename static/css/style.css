@@ -1,11 +1,11 @@
 body {
-  font-family: National;
+  font-family: system-ui;
   color: black;
   background-color: white;
 }
 
 h1 {
-  font-family: National;
+  font-family: system-ui;
   font-weight: 500;
   font-size: 40px;
   position: absolute;
@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-  font-family: National;
+  font-family: system-ui;
   font-weight: 300;
   font-size: 18px;
   position: absolute;
@@ -42,7 +42,7 @@ h2 {
 }
 
 h3 {
-  font-family: National;
+  font-family: system-ui;
   font-weight: 300;
   font-size: 32px;
   margin-top: 24px;
@@ -50,7 +50,7 @@ h3 {
 }
 
 h4 {
-  font-family: National;
+  font-family: system-ui;
   font-weight: bold;
   font-size: 24px;
   color: black;
@@ -62,7 +62,7 @@ h4 {
 }
 
 h5 {
-  font-family: National;
+  font-family: system-ui;
   font-weight: bold;
   font-size: 22px;
   margin-top: 10px;
@@ -744,61 +744,6 @@ width: 40%;
   background:url("./images/main_top.gif") no-repeat left top;
   padding:10px 0 0;
   }
-
-
-@font-face { 
-	font-family: 'National'; src: url('//web-app.usc.edu/assets/fonts/NationalWeb-Light.eot'); src: local(':)'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Light.woff') format('woff'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Light.ttf') format('truetype'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Light.svg') format('svg'); 
-	font-weight: 200; 
-	font-style: normal; 
-}
-
-@font-face { 
-	font-family: 'National'; src: url('//web-app.usc.edu/assets/fonts/NationalWeb-LightItalic.eot'); src: local(':)'), url('//web-app.usc.edu/assets/fonts/NationalWeb-LightItalic.woff') format('woff'), url('//web-app.usc.edu/assets/fonts/NationalWeb-LightItalic.ttf') format('truetype'), url('//web-app.usc.edu/assets/fonts/NationalWeb-LightItalic.svg') format('svg'); 
-	font-weight: 200; 
-	font-style: italic; 
-}
-
-@font-face { 
-	font-family: 'National'; src: url('//web-app.usc.edu/assets/fonts/NationalWeb-Regular.eot'); src: local(':)'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Regular.woff') format('woff'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Regular.ttf') format('truetype'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Regular.svg') format('svg'); 
-	font-weight: 500; 
-	font-style: normal; 
-}
-
-@font-face { 
-	font-family: 'National'; src: url('//web-app.usc.edu/assets/fonts/NationalWeb-Italic.eot'); src: local(':)'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Italic.woff') format('woff'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Italic.ttf') format('truetype'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Italic.svg') format('svg'); 
-	font-weight: 500; 
-	font-style: italic; 
-}
-
-@font-face { 
-	font-family: 'National'; src: url('//web-app.usc.edu/assets/fonts/NationalWeb-Semibold.eot'); src: local(':)'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Semibold.woff') format('woff'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Semibold.ttf') format('truetype'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Semibold.svg') format('svg'); 
-	font-weight: 700; 
-	font-style: normal; 
-}
-
-@font-face { 
-	font-family: 'National'; src: url('//web-app.usc.edu/assets/fonts/NationalWeb-Semibold-Italic.eot'); src: local(':)'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Semibold-Italic.woff') format('woff'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Semibold-Italic.ttf') format('truetype'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Semibold-Italic.svg') format('svg'); 
-	font-weight: 700; 
-	font-style: italic;
-}
-
-@font-face { 
-	font-family: 'National'; src: url('//web-app.usc.edu/assets/fonts/NationalWeb-Bold.eot'); src: local(':)'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Bold.woff') format('woff'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Bold.ttf') format('truetype'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Bold.svg') format('svg'); 
-	font-weight: 800; 
-	font-style: normal; 
-}
-
-@font-face { 
-	font-family: 'National'; src: url('//web-app.usc.edu/assets/fonts/NationalWeb-Extrabold.eot'); src: local(':)'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Extrabold.woff') format('woff'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Extrabold.ttf') format('truetype'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Extrabold.svg') format('svg'); 
-	font-weight: 900; 
-	font-style: normal; 
-}
-
-@font-face { 
-	font-family: 'National'; src: url('//web-app.usc.edu/assets/fonts/NationalWeb-Extrabold-Italic.eot'); src: local(':)'), url('//web-app.usc.edu/assets/fonts/NationalWeb-ExtraBold-Italic.woff') format('woff'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Extrabold-Italic.ttf') format('truetype'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Extrabold-Italic.svg') format('svg'); 
-	font-weight: 900; 
-	font-style: italic; 
-}
 
 /* Custom, iPhone Retina */ 
 @media(max-width:320px){
